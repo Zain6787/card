@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.card{
+    width: 300px;
+    height: 440px;
+    border: 1px solid #d4b2b2;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px #ddd;
+    transition: .3s linear;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px #d7abab;
+}
+.img-container{
+    width: 299px;
+    height: 200px;
+  position: relative;
+}
+.img{
+    width: 100%;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.label{
+    position: absolute;
+    top: 0%;
+    background-color: rgb(204, 96, 25);
+    color: aliceblue;
+    padding:   6px 10px;
+    margin: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.card-heading{
+    margin: 8px 4px;
+    font-size: 20px;
+    font-weight: 900px;
+    color: rgb(148, 101, 76);
+}
+.zii{
+    font-size: 14px;
+    color: rgb(92, 154, 154);
+    
+}
+.card-desc{
+    margin: 8px 4px;
+}
+.card-price{
+    margin: 6px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline-block;
+    color: rgb(215, 10, 10);
+}
+.card-rating{
+    display: inline;
+    color: rgb(229, 202, 30);
+   margin-left: 160px;
+
+}
+.card-btn{
+    text-align: center;
+}
+.btn{
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    margin: 10px 0px;
+    border: none;
+    background-color: rgb(16, 124, 145);
+    color: aliceblue;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+}
